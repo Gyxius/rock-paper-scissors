@@ -1,0 +1,57 @@
+body {
+    background-color: aquamarine;
+    font-family: "Roboto", sans-serif;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+}
+
+.top-message {
+    border-style: solid;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.scores {
+    display: flex;
+    gap: 120px;
+    margin: 10px;
+}
+
+button {
+    width: 120px;
+    height: 50px;
+}
+
+#rock {
+    background-color: yellow;
+}
+
+#paper {
+    background-color: green;
+}
+
+#scissors {
+    background-color: blue;
+}
+
+/*
+* {
+    outline: 2px solid red;
+}
+*/
+
